@@ -7,7 +7,7 @@ function checkNum() {
     if (typeof (radius) === 'number') {
         var area = calCircleArea(radius);
         var result = document.querySelector('#area');
-        result.textContent = 'THe radius of circle is '+ area;
+        result.textContent = 'The area of the circle is '+ area;
     }
 
     else {
